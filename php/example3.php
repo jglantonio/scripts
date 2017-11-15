@@ -32,6 +32,11 @@
     $date = date("d/m/Y G:i:s",time());
     echo $date; // 09/04/40986 3:11:30:000:000000
     ?>
+    <br>
+    <?php
+    $date = date("d/m/Y G:i:s");
+    echo $date; // 09/04/40986 3:11:30:000:000000
+    ?>
 </div>
 </body>
 </html>
