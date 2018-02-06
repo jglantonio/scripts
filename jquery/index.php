@@ -45,7 +45,6 @@
 
     }
     $('#validarDNI').on('click',function(){
-        validate($("#dni").val());
         validar($("#dni").val());
     });
 </script>
